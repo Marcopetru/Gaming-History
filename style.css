@@ -1,0 +1,129 @@
+
+.first-container {
+    background-color: #9DC08B;
+}
+
+.joystick-icon {
+    width: 300px; /* Ajusta el tamaño según sea necesario */
+    height: 300px; /* Para asegurar que sea un círculo perfecto, la altura y anchura deben ser iguales */
+    border-radius: 50%; /* Esto crea el efecto circular */
+    object-fit: cover;
+  }
+
+.first-container h1 {
+    color: #EDF1D6;
+    font-size: 12rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.first-container p {
+    color: #40513B;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.second-container {
+    background-color: #EDF1D6;
+}
+
+.second-container h2 {
+    color: #609966;
+    font-size: 5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.second-container p {
+    color: #40513B;
+    font-family: "Roboto", sans-serif;
+}
+
+.third-container {
+    background-color: #523C4E;
+}
+
+.third-container h2 {
+    color: #85A77B;
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.card-body {
+    flex-grow: 1; /* Ensures the body of the card expands with content */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures the text is evenly spaced */
+    min-height: 200px; /* Set a minimum height to avoid breaking layout */
+    background-color: #D177C2;
+}
+
+.card-body h3 {
+    color: #41523C;
+    font-family: "Roboto", sans-serif;
+}
+
+.card-body p {
+    color: #41523C;
+    font-family: "Roboto", sans-serif;
+}
+
+.fourth-container {
+    background-color: #C1D8C3;
+}
+
+.fourth-container h2 {
+    color: #FFF5E4;
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.fourth-container p {
+    color: #6A9C89;
+    font-family: "Roboto", sans-serif;
+}
+
+.setup-image {
+    height: 300px; /* Para asegurar que sea un círculo perfecto, la altura y anchura deben ser iguales */
+    border-radius: 50%; /* Esto crea el efecto circular */
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #DA8359;
+}
+
+.footer a {
+    color: #387478;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer p {
+    color: #387478;
+    font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+    .first-container h1 {
+        font-size: 6rem;
+    }
+    .first-container p {
+        font-size: 2rem;
+    }
+    .second-container h2 {
+        font-size: 3rem;
+    }
+    .second-container p {
+        font-size: 1.2rem;
+    }
+    .third-container h2 {
+        font-size: 2.5rem;
+    }
+    .card-body p {
+        font-size: 1rem;
+    }
+    .fourth-container h2 {
+        font-size: 2.5rem;
+    }
+    .fourth-container p {
+        font-size: 1.2rem;
+    }
+}
